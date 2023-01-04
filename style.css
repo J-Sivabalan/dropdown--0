@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(IMAGES/wp2258700-wanderlust-wallpapers.jpg);
+    background-size: 100% 600%;
+}
+header{
+    background-color: black;
+    opacity: 70%;
+    height: 50px;
+    margin-top: 60px;
+    margin-left: 140px;
+    width: 1100px;
+}
+.dropdown
+{
+    display: flex;
+    list-style-type: none;
+    padding: 10px 50px; 
+    font-size: 20px;
+    justify-content: space-between;
+}
+a
+{
+    text-decoration: none;
+    color: antiquewhite;
+    margin: auto;
+    padding: 0px 20px;
+
+}
+a:hover
+{
+    color: crimson;
+}
+.india
+{
+    list-style-type: none;
+    font-size: 18px;
+    display: none;
+    position: absolute;
+}
+.india li
+{
+    padding: 4px 10px;
+    background-color: black;
+}
+.dropdown li:hover .india
+{
+    display: block;
+}
+.tn{
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    font-size: 18px;
+    color: antiquewhite;
+}
+.tn li{
+    padding:5px 10px;
+}
+.india li:hover .tn{
+    display: block;
+    margin-left: 127px;
+    margin-top: -20PX;
+}
